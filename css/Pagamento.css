@@ -1,0 +1,866 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #202843;
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #bac2ff;
+    border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #191e35;
+    border-radius: 3px;
+}
+
+.container{
+    height: 65px;
+    width: 100%;
+    background-color:#1e88e512;
+    border-bottom: solid 3px #1e88e526;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 15px #03123748;
+}
+
+#cont{
+    align-items: center;
+    display: flex;
+    margin-right: 50px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    cursor: pointer;
+    color: #dee0ee;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+hr{
+    display: none;
+}
+
+nav ul li .a{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    color: #dee0ee;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 0px;
+    transition: all .3s;
+    margin-left: 5%;
+}
+
+nav ul li .a:hover{
+    transform: translateY(5%);
+    border-radius: 4px;
+    transition: all .3s;
+    background-color: #ffffff21;
+    backdrop-filter: blur(5px);
+}
+
+.logo_top{
+    margin-left: 25px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.d{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Download{
+    font-size: 15px;
+    border: solid 3px #dee0ee;
+    color: #dee0ee;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    margin-left: 10%;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.Download:hover{
+    transition: all .3s;
+    color: #0986e0;
+    background: #dee0ee;
+    border: solid 3px transparent;
+}
+
+nav input, nav label{
+    display: none;
+}
+
+#laba{
+    font-size: 35px;
+    width: 100%;
+    color: #dee0ee;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 650px){
+
+    #cont{
+        position: fixed;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all .3s;
+        left: 100%;
+        z-index: 100;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        width: 60%;
+        height: 100vh;
+        background-color:#031a2eec;
+        border-left: solid 3px #1366af1c;
+        backdrop-filter: blur(10px);
+        transition: all .3s;
+        left: 100%;
+        z-index: 200;
+    }
+
+    nav ul li .a{
+        font-size: 19px;
+        margin: 10% auto;
+        color: #dee0ee;
+    }
+
+    .Download{
+        font-size: 15px;
+        margin: 2% auto 0 auto;
+    }
+
+    .Download:hover{
+        transition: all .3s;
+        color: #0c225c;
+        background: #dee0ee;
+        border: solid 3px transparent;
+    }
+
+    hr{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        width: 50%;
+        height: 3px;
+        border-radius: 5px;
+        margin-bottom: 7%;
+        margin-right: 1.5%;
+        background-color: #dee0ee;
+    }
+
+    nav label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    nav ul .a:hover{
+        transform: translatex(10%);
+        border-radius: 4px;
+        transition: all .3s;
+        background-color: #3c414744;
+        backdrop-filter: blur(5px);
+    }
+
+    #li0{
+        transition: .6s;
+        transform: translateX(50%);
+    }
+
+    #li1{
+        transition: .6s;
+        transform: translateX(100%);
+    }
+
+    #li2{
+        transition: .6s;
+        transform: translateX(150%);
+    }
+
+    #hr{
+        transition: .6s;
+        transform: translateX(200%);
+    }
+
+    #down{
+        transition: .6s;
+        transform: translateX(250%);
+    }
+}
+
+/*---------------------------*/
+
+.containers{
+    position: relative;
+    margin: 0 auto;
+    top: 85px;
+    width: 600px;
+    height: 970px;
+    border-radius: 5px;
+    background-color: #101527;
+    margin-bottom: 100px;
+    padding-top: 35px;
+}
+
+.security{
+    display: flex;
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    color: #b6b7be;
+}
+
+.img_shield{
+    width: 20px;
+
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    line-height: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 35px;
+    color: #dee0ee;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 15px #97c7e936;
+}
+
+.containers label{
+    display: block;
+}
+
+.form_email, .form_fullname, .form_confirm_email, .form_number_card, .form_nome_titular{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fullname, #idemail, #id_confirm_email, #id_number_card, #id_nome_titular{
+    position: relative;
+    width: 80%;
+    margin-bottom: 25px;
+    height: 35px;
+    border: 2px solid #265884;
+    background-color: #18203b00;
+    box-shadow: 0px 4px 2px #090c17;
+    color: #ccd0e6;
+    padding-left: 40px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#fullname:focus, #idemail:focus, #id_confirm_email:focus, #id_number_card:focus, #id_nome_titular:focus,#id_mes:focus,#id_ano:focus,#id_cvv:focus,
+#fullname:valid, #idemail:valid, #id_confirm_email:valid, #id_number_card:valid, #id_nome_titular:valid,#id_mes:valid,#id_ano:valid,#id_cvv:valid{
+    border: 2px solid #0986e0;
+}
+
+.label_fullname{
+    position: absolute;
+    top: 7px;
+    box-shadow: 0px 0px 3px #101527;
+    font-size: 15px;
+    cursor: text;
+    left: 12%;
+    color: #ccd0e679;
+    letter-spacing: 1px;
+    background-image: linear-gradient(0deg, transparent 0%, #101527 30%);
+    padding: 1px 5px;
+    z-index: 1;
+}
+
+.label_email{
+    cursor: text;
+    position: absolute;
+    top: 7px;
+    font-size: 15px;
+    left: 12%;
+    color: #ccd0e679;
+    letter-spacing: 1px;
+    background-image: linear-gradient(0deg, transparent 0%, #101527 30%);
+    padding: 1px 5px;
+    z-index: 1;
+}
+
+.label_confirm_email{
+    cursor: text;
+    position: absolute;
+    top: 7px;
+    font-size: 15px;
+    left: 12%;
+    color: #ccd0e679;
+    letter-spacing: 1px;
+    background-image: linear-gradient(0deg, transparent 0%, #101527 30%);
+    padding: 1px 5px;
+    z-index: 1;
+}
+
+.label_number_card{
+    cursor: text;
+    position: absolute;
+    top: 7px;
+    font-size: 15px;
+    left: 12%;
+    color: #ccd0e679;
+    letter-spacing: 1px;
+    background-image: linear-gradient(0deg, transparent 0%, #101527 30%);
+    padding: 1px 5px;
+    z-index: 1;
+}
+
+.label_nome_titular{
+    cursor: text;
+    position: absolute;
+    top: 7px;
+    font-size: 15px;
+    left: 12%;
+    color: #ccd0e679;
+    letter-spacing: 1px;
+    background-image: linear-gradient(0deg, transparent 0%, #101527 30%);
+    padding: 1px 5px;
+    z-index: 1;
+}
+
+
+form input::placeholder{
+    color: #ccd0e638;
+    letter-spacing: 0px;
+}
+
+
+.formasPagamentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 5px;
+    width: 285px;
+    background-color: #6470a03a;
+    margin-bottom: 25px;
+}
+
+.forma1{
+    margin: 0 5px;
+    height: 15px;
+}
+
+.forma2{
+    margin: 0 5px;
+    height: 30px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.select i{
+    margin: 0 6px;
+    font-size: 20px;
+}
+
+.cartao, .pix, .paypal{
+    margin: 0 5px;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 3px #6470a054;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccd0e679;
+    box-shadow: 0px 0px 0px #00000000;
+    text-shadow: 0px 0px 0px #00000000;
+}
+
+.cartao{
+    cursor: pointer;
+    height: 50px;
+    background-color: transparent;
+    border: solid 2px #0986e0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0986e0;
+    text-shadow: 0px 0px 8px #0986e047;
+    box-shadow: 0px 0px 10px #0986e060;
+}
+
+.cards{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 10px #999;
+}
+ 
+#form_pagamento{
+    margin-top: 230px;
+}
+
+.card_front{
+    position: absolute;
+    width: 360px;
+    height: 200px;
+    z-index: 2;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #0d72cb 0%, #092c8e 100%);
+    color: #eeeeee;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 1px #7b80a4;
+    transition: .8s;
+}
+
+.chip{
+    width: 40px;
+    top: 12%;
+    left: 10%;
+    position: absolute;
+    opacity: 100%;
+    filter: invert(1) contrast(15%) opacity(75%);
+}
+
+.card_front2{
+    position: absolute;
+    width: 360px;
+    z-index: 1;
+    transform: rotatey(180deg);
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #092c8e 0%, #0d72cb 100%);
+    color: #eeeeee;
+    margin-bottom: 25px;
+    box-shadow: -2px 2px 1px #7b80a4;
+    transition: .8s;
+}
+
+.target{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+}
+
+.card_white{
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    margin: 0 auto;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card_cvv{
+    color: #222;
+    margin-right: 3%;
+    letter-spacing: 1px;
+}
+
+.Cvv{
+    position: absolute;
+    top: 37%;
+    right: 0;
+    font-size: 14px;
+    margin-right: 7%;
+    letter-spacing: 1px;
+}
+
+.card_number{
+    position: absolute;
+    top: 55%;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+
+.dados{
+    position: relative;
+    top: 155px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.card_name{
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+
+.barra{
+    margin: 0 1px;
+}
+
+.dat{
+    margin-right: 4%;
+    display: flex;
+}
+
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.data label{
+    font-size: 12px;
+    color: #ccd0e679;
+    letter-spacing: 1px;
+    background-image: linear-gradient(0deg, transparent 0%, #101527 30%);
+    padding: 0px 5px;
+    z-index: 1;
+}
+
+.data input{
+    position: relative;
+    width: 70px;
+    text-align: center;
+    margin-bottom: 25px;
+    height: 35px;
+    border: 2px solid #265884;
+    background-color: #18203b00;
+    box-shadow: 0px 4px 2px #090c17;
+    color: #ccd0e6;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form_mes, .form_ano, .form_cvv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detalhe{
+    padding: 0 5%;
+    color: #ccd0e6;
+    display: flex;
+    flex-direction: column;
+}
+
+.detalhe2{
+    background-color: #6470a01c;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    height: 30px;
+    padding: 0 2%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+
+#user, #email, #email2, #number, #nametitular{
+    font-size: 17px;
+    position: absolute;
+    right: 88%;
+    top: 12px;
+    color: #ccd0e679;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+.pagar{
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #dee0ee;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: solid 2px #0986e0;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.pagar:hover{
+    width: 90%;
+    transition: all .3s;
+    color: #0986e0;
+    background-color: #1b2441;
+    box-shadow: 0px 0px 15px #0986e057;
+}
+
+
+
+/*--------------------------------------*/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 26ex;
+    background-color: #090c17;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 4% 0;
+    bottom: 0;
+}
+
+.logo_footer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2.5ex;
+    margin-top: 4%;
+}
+
+.rede_sociais i{
+    color: #dee0ee;
+    font-size: 23px;
+    transition: all .1s;
+    padding: 15px;
+}
+
+.rede_sociais i:hover{
+    text-shadow: 0px 0px 7px #1e88e592;
+    color: #1e88e5;
+    transform: scale(1.1);
+    transition: all .1s;
+}
+
+.instagram, .facebook, .twitter{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+    background-color: #1C1C1C;
+    margin-bottom: 33%;
+}
+
+.instagram{
+    position: relative;
+    right: 15%;
+}
+
+.twitter{
+    position: relative;
+    left: 15%;
+}
+
+.rede_sociais{
+    display: flex;
+    margin-top: 5vh;
+}
+
+footer a{
+    color: #1e88e5;
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+    text-align: center;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    font-size: 14px;
+}
+
+footer .bah{
+    color: #dee0ee;
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+footer p{
+    position: relative;
+    color: #dee0ee;
+    font-size: 14px;
+    margin-bottom: 200%;
+}
+
+/*---------Responsive--------*/
+
+@media only screen and (max-width: 630px){
+ 
+    .containers{
+        width: 90%;
+    }
+
+    h1{
+        display: flex;
+        text-align: center;
+        line-height: 35px;
+        justify-content: center;
+        align-items: center;
+        font-size: 170%;
+        color: #dee0ee;
+        margin-bottom: 20px;
+        text-shadow: 0px 0px 15px #97c7e936;
+    }
+
+}
+
+@media only screen and (max-width: 457px){
+
+    .select p{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .select i{
+        margin-bottom: 3px;
+        font-size: 16px;
+        margin-top: 3px;
+    }
+
+    .cartao, .pix, .paypal{
+        flex-direction: column;
+        height: 65px;
+    }
+
+    /*--------------*/
+
+    #form_pagamento{
+        margin-top: 190px;
+    }
+
+    .card_front, .card_front2{
+        width: 250px;
+        height: 150px;
+    }
+
+    .chip{
+        width: 30px;
+        top: 10%;
+        left: 10%;
+    }
+
+    .target{
+        position: absolute;
+        top: 10%;
+        width: 100%;
+        height: 30px;
+        background-color: #000;
+    }
+    
+    .card_white{
+        position: absolute;
+        top: 50%;
+        width: 90%;
+        margin: 0 auto;
+        height: 28px;
+        border-radius: 5px;
+        background-color: #eeeeee;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .card_cvv{
+        color: #222;
+        font-size: 14px;
+        margin-right: 3%;
+        letter-spacing: 1px;
+    }
+    
+    .card_number{
+        top: 55%;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    
+    .dados{
+        top: 115px;
+        font-size: 13px;
+    }
+}
