@@ -1,16 +1,18 @@
-<img lign="center" src="padlock.png">
+<img lign="center" src="./Logos/logo text stars.png">
 
 ---
 
-<h1 align="center">🔒 Gerador de senhas</h1>
+<h1 align="center">🎧Stars Player de musica page</h1>
 
-<h3 align="center">✔ STATUS: Concluído ✔</h3>
+<h3 align="center">🚧 STATUS 🚀 Em construção... 🚧</h3>
 
 ---
 
 <h2 align="center">📖Sobre</h2>
 
-<p align="center">O projeto consiste em uma opção para selecionar a quantidade de caracteres que a senha terá, opção de letras maiusculas, minusculas, numeros e simbolos, um botão para copiar a senha gerada e opção dark/light mode.</p>
+<p align="center">Este projeto foi realizado como uma forma de divulgar um app de player de música que vou desenvolver futuramente,
+o projeto consiste em uma página principal contendo botões de download multiplataforma, explicação das funcionalidades do app.
+Tendo também uma página de login, cadastro e pagamento.</p>
 
 ---
 
@@ -18,25 +20,26 @@
 
 ✅ Responsividade<br>
 ✅ Animações<br>
-✅ Dark/Light mode<br>
-✅ Botão copiar senha<br>
-✅ opcão quantidade de caracteres<br>
-✅ opcão letra minúsculas<br>
-✅ opcão letra maiúsculas<br>
-✅ opcão letra numeros<br>
-✅ opcão letra Símbolos<br>
+✅ Navbar responsiva<br>
+✅ página de Cadastro<br>
+✅ página de login<br>
+✅ página de pagamento<br>
+✅ Sign up e Log in com validador<br>
+✅ Botão de download<br>
+✅ avaliação do usúario
+### etc..
 
 ---
 
 <h2 align="center">🖥Preview</h2>
 
-<img src="redme_img\senha desktop.png" alt="Previw desktop"></img>
+<img src="imgs\star desktop.png" alt="Previw desktop"></img>
 <br>
 <br>
 <br>
-<img src="redme_img\senha mobile.png" alt="Previw mobile"></img>
+<img src="imgs\star mobile.png" alt="Previw desktop"></img>
 
-### Veja o projeto em funcionamento <a href="https://gabriell-c.github.io/gerador-de-senhas/">aqui</a>. 🧐
+### Veja o projeto em funcionamento <a href="https://gabriell-c.github.io/Stars-Player-de-musica-page/">aqui</a>. 🧐
 
 ---
 
