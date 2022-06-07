@@ -1,4 +1,4 @@
-<h1 align="center">Stars Player de musica page</h1>
+<h1 align="center">🎧Stars Player de musica page</h1>
 
 <h3 align="center">🚧 STATUS 🚀 Em construção... 🚧</h3>
 
