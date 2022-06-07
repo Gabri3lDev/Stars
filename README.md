@@ -20,8 +20,8 @@ etc..
 
 ## Preview
 
-<img scr="imgs\star desktop.png" alt="Previw desktop"></img>
+<img src="imgs\star desktop.png" alt="Previw desktop"></img>
 
 ---
 
-<img scr="imgs\star mobile.png" alt="Previw desktop"></img>
+<img src="imgs\star mobile.png" alt="Previw desktop"></img>
