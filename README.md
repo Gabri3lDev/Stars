@@ -1,3 +1,7 @@
+<img lign="center" src="./Logos/logo text stars.png">
+
+---
+
 <h1 align="center">🎧Stars Player de musica page</h1>
 
 <h3 align="center">🚧 STATUS 🚀 Em construção... 🚧</h3>
@@ -44,3 +48,11 @@ Tendo também uma página de login, cadastro e pagamento.</p>
 - [HTML](https://html.com/)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://www.javascript.com/)
+
+---
+
+<h2 align="center">📝Licença</h2>
+
+<p align="center">
+   Este repositório está sob licença MIT. Você pode ver o arquivo <a href="https://github.com/gabriell-c/Stars-Player-de-musica-page/blob/main/LICENSE"> LICENSE</a> para mais detalhes. 😉
+</p>
