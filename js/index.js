@@ -16,41 +16,43 @@ const stars5= document.getElementById("stars5")
 const stars6 = document.getElementById("stars6")
 const tks = document.getElementById("tks")
 const h4 = document.getElementById("h4")
+const uls = document.getElementById("uls")
+const li0 = document.getElementById("li0")
+const li1 = document.getElementById("li1")
+const li2 = document.getElementById("li2")
+const down = document.getElementById("down")
+const hr = document.getElementById("hr")
 
 function myFuction (){
 
     if(document.getElementById("check").checked){
-        document.getElementById("uls").style.left = "40%"
-        document.getElementById("uls").style.top = "68px"
-        document.getElementById("uls").style.transition = ".4s"
-        document.getElementById("li0").style.transition = ".6s"
-        document.getElementById("li1").style.transition = ".6s"
-        document.getElementById("li2").style.transition = ".6s"
-        document.getElementById("down").style.transition = ".6s"
-        document.getElementById("hr").style.transition = ".6s"
-        document.getElementById("li0").style.transform = "translatex(0%)"
-        document.getElementById("li1").style.transform = "translatex(0%)"
-        document.getElementById("li2").style.transform = "translatex(0%)"
-        document.getElementById("hr").style.transform = "translatex(0%)"
-        document.getElementById("down").style.transform = "translatex(0%)"
-
-
-    }
-
-    else{
-        document.getElementById("uls").style.top = "68px"
-        document.getElementById("uls").style.left = "100%"
-        document.getElementById("uls").style.transition = ".6s"
-        document.getElementById("li0").style.transition = ".6s"
-        document.getElementById("li1").style.transition = ".6s"
-        document.getElementById("li2").style.transition = ".6s"
-        document.getElementById("down").style.transition = ".6s"
-        document.getElementById("hr").style.transition = ".6s"
-        document.getElementById("li0").style.transform = "translatex(50%)"
-        document.getElementById("li1").style.transform = "translatex(100%)"
-        document.getElementById("li2").style.transform = "translatex(150%)"
-        document.getElementById("hr").style.transform = "translatex(200%)"
-        document.getElementById("down").style.transform = "translatex(250%)"
+        uls.style.left = "40%"
+        uls.style.top = "68px"
+        uls.style.transition = ".4s"
+        li0.style.transition = ".6s"
+        li1.style.transition = ".6s"
+        li2.style.transition = ".6s"
+        down.style.transition = ".6s"
+        hr.style.transition = ".6s"
+        li0.style.transform = "translatex(0%)"
+        li1.style.transform = "translatex(0%)"
+        li2.style.transform = "translatex(0%)"
+        hr.style.transform = "translatex(0%)"
+        down.style.transform = "translatex(0%)"
+    }else{
+        uls.style.top = "68px"
+        uls.style.left = "100%"
+        uls.style.transition = ".6s"
+        li0.style.transition = ".6s"
+        li1.style.transition = ".6s"
+        li2.style.transition = ".6s"
+        down.style.transition = ".6s"
+        hr.style.transition = ".6s"
+        li0.style.transform = "translatex(50%)"
+        li1.style.transform = "translatex(100%)"
+        li2.style.transform = "translatex(150%)"
+        hr.style.transform = "translatex(200%)"
+        down.style.transform = "translatex(250%)"
     }
 }
 
